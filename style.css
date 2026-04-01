@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    background: #f4d58d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD */
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 300px;
+    text-align: center;
+}
+
+/* INPUT */
+.amount input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* DROPDOWN */
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.select-container img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+select {
+    border: none;
+    outline: none;
+}
+
+/* BUTTON */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: purple;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkmagenta;
+}
+
+/* TEXT */
+.msg {
+    margin-top: 10px;
+}
